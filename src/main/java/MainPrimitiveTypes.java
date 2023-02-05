@@ -1,4 +1,4 @@
-public class HW1Main {
+public class MainPrimitiveTypes {
     public static void main(String[] args) {
         byte a = 127;
         short b = -32000;
@@ -18,5 +18,7 @@ public class HW1Main {
         System.out.println(g);
         System.out.println(h);
 
-    }
+        ScannerString input = new ScannerString();
+        input.myScanner();
+        }
 }
