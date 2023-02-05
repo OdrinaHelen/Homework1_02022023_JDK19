@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class MainPrimitiveTypes {
     public static void main(String[] args) {
+        /*Пункт ДЗ №2*/
         byte a = 127;
         short b = -32000;
         int c = 200000;
@@ -18,7 +21,13 @@ public class MainPrimitiveTypes {
         System.out.println(g);
         System.out.println(h);
 
+
+        /*Пункт ДЗ №3*/
+
         ScannerString input = new ScannerString();
         input.myScanner();
+
+
+
         }
 }
