@@ -1,4 +1,3 @@
-import static java.lang.System.out;
 
 public class MathOperations {
 
@@ -21,6 +20,10 @@ public class MathOperations {
         double fracResult = x / y;
         return fracResult;
 
+    }
+
+    public static double circleArea(int d){
+        return Math.PI * Math.pow ((d / 2), 2);
     }
 
 
